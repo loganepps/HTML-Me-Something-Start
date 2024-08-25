@@ -1,1 +1,90 @@
-/* Write your CSS here! */
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(15,191,152,1) 100%, rgba(0,212,255,1) 100%);
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: light;
+    color: #fff;
+    margin: 8px;
+    display: block;
+    line-height: 1.5;
+}
+
+section {
+    padding: .5em 1em;
+    color: #abccba;
+}
+
+footer {
+    padding-bottom: 200px;
+}
+
+p {
+    text-indent: 2.5%;
+}
+
+a {
+    color: pink;
+}
+
+a:visited {
+    color: darkred;
+}
+
+img {
+    border-radius: 15px;
+    padding: .5em;
+    width: 50%;
+    max-width: 100%;
+    min-width: 75%;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: #abccba;
+    background-color: #abccba;
+}
+
+.heading {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-size: 2em;
+    color: #fff;
+}
+
+.subHeading {
+    font-family: "Rubik Mono One", monospace;
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: oblique;
+    color: lightgoldenrodyellow;
+}
+
+.funParagraph {
+    background-color: #abccba;
+    color: green;
+    padding: 2em 1em;
+    margin-bottom: 50px;
+}
+
+#mainHeading {
+    background-color: lightgoldenrodyellow;
+    color: red;
+    text-shadow: 1px 1px 2px darkred;
+    font-size: 4em;
+}
+
+#testP {
+    background-color: lightgoldenrodyellow;
+}
+
+#copyright {
+    color: #abccba;
+}
